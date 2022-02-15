@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +37,7 @@
     <!--QUIENES SOMOS-->
     <main>
         <section class="presentacioncontenedor">
-            <img src="imagenes/presentacion.jpg" class="bloque1" alt="Imagen presentacion">
+            <img src="imagenes/presentacion.jpg" class="bloque1" data-aos="fade-down" alt="Imagen presentacion">
             <h2 class="subtitulo">Quienes Somos</h2>
             <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam aliquid, dolor, ipsam veritatis nihil, dicta ducimus libero eligendi a facilis nobis vero amet illo quis? Cumque reiciendis id ratione.
             Delectus earum officia perferendis vitae quaerat, dolorem labore, quos unde inventore voluptas accusamus quasi veniam voluptates quod eos quo sapiente quis ducimus hic optio qui similique pariatur exercitationem. Earum, officiis? </p>
@@ -49,16 +51,16 @@
             </div>
 
             <figure class="linea_imagen">
-                <img src="imagenes/cocina.jpg" class="linea_cocina" alt="Linea Cocina">
+                <img src="imagenes/cocina.jpg" class="linea_cocina" data-aos="zoom-out-right" alt="Linea Cocina">
             </figure>
             <figure class="linea_imagen linea_imagen--left">
-                <img src="imagenes/dormitorio.jpg" class="linea_dormitorio" alt="Linea Dormitorio ">
+                <img src="imagenes/dormitorio.jpg" class="linea_dormitorio" data-aos="zoom-out-right" alt="Linea Dormitorio ">
             </figure>
             <figure class="linea_imagen">
-                <img src="imagenes/estudio.jpg" class="linea_estudio"alt="Linea Estudio">
+                <img src="imagenes/estudio.jpg" class="linea_estudio" data-aos="zoom-out-right" alt="Linea Estudio">
             </figure>
             <figure class="linea_imagen linea_imagen--left">
-                <img src="imagenes/baño.jpg" class="linea_baño"alt="Linea Baño">
+                <img src="imagenes/baño.jpg" class="linea_baño" data-aos="zoom-out-right" alt="Linea Baño">
             </figure>   
             <div class="linea_texto">
                 <h2 class="subtitulo">Linea de Muebles Estudio & Baño</h2>
@@ -97,7 +99,7 @@
     <section class="ubicacion">
     <div class="ubicacion1">
     <h3>Ubicación</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.025421058635!2d-57.98818978560934!3d-34.92052327677842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2sbr!4v1642993907609!5m2!1ses!2sbr" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.025421058635!2d-57.98818978560934!3d-34.92052327677842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2sbr!4v1642993907609!5m2!1ses!2sbr" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"data-aos="zoom-out-up"></iframe>
     <p>Copyright ©2022 CasaFerro || Todos los derechos reservados</p>
     
 </section>
@@ -106,5 +108,8 @@
 
 
     <script src="https://kit.fontawesome.com/00ac73b575.js" crossorigin="anonymous"></script>
+<script>
+        AOS.init();
+</script>
 </body>
 </html>
